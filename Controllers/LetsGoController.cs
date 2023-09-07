@@ -2,11 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("[controller]")]
-public class HelloWorldController : ControllerBase
+
+public class LetsGoController : ControllerBase
 {
     [HttpGet]
     public string Get()
     {
-        return "Hello, World!";
+        return "Let's go! Let's build an API!";
     }
 }
