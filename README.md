@@ -2,7 +2,7 @@
 CSNetAPI is a simple .NET 7.0 API that provides greetings through two distinct endpoints.
 
 ## Deployment
-The API is deployed on Render and is accessible at https://CSNetAPI.onrender.com.
+The API is deployed on Render and is accessible at https://csnetapi.onrender.com.
 
 ## Endpoints
 ### Codestream Endpoint
@@ -12,8 +12,8 @@ Method: GET
 Response: "Hello, Codestreamers!"  
 Let's Go Endpoint  
 
-### Let's Go! Enpoint
-URL: https://CSNetAPI.onrender.com/LetsGo  
+### Let's Go! EnpointN
+URL: https://csnetapi.onrender.com/LetsGo  
 Method: GET  
 Response: "Let's go! Let's build an API!"  
 Controllers  
