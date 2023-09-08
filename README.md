@@ -7,7 +7,7 @@ The API is deployed on Render and is accessible at https://CSNetAPI.onrender.com
 ## Endpoints
 ### Codestream Endpoint
 
-URL: https://CSNetAPI.onrender.com/Codestream  
+URL: https://csnetapi.onrender.com/Codestream  
 Method: GET  
 Response: "Hello, Codestreamers!"  
 Let's Go Endpoint  
