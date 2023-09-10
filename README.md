@@ -48,3 +48,52 @@ Copy code
 docker build -t csnetapi .  
 docker run -p 8080:80 csnetapi  
 Once running, navigate to http://localhost:8080/Codestream or http://localhost:8080/LetsGo to test the endpoints.  
+
+```
+HelloWorldAPI
+├─ Controllers
+│  ├─ CodestreamController.cs
+│  └─ LetsGoController.cs
+├─ Dockerfile
+├─ HelloWorldAPI.csproj
+├─ HelloWorldAPI.sln
+├─ Program.cs
+├─ Properties
+│  └─ launchSettings.json
+├─ README.md
+├─ appsettings.Development.json
+├─ appsettings.json
+├─ bin
+│  └─ Debug
+│     ├─ net5.0
+│     └─ net7.0
+└─ obj
+   ├─ Debug
+   │  ├─ net5.0
+   │  │  ├─ .NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+   │  │  ├─ HelloWorldAPI.AssemblyInfo.cs
+   │  │  ├─ HelloWorldAPI.AssemblyInfoInputs.cache
+   │  │  ├─ HelloWorldAPI.GeneratedMSBuildEditorConfig.editorconfig
+   │  │  ├─ HelloWorldAPI.GlobalUsings.g.cs
+   │  │  ├─ HelloWorldAPI.assets.cache
+   │  │  ├─ HelloWorldAPI.csproj.AssemblyReference.cache
+   │  │  ├─ ref
+   │  │  └─ refint
+   │  └─ net7.0
+   │     ├─ .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+   │     ├─ HelloWorldAPI.AssemblyInfo.cs
+   │     ├─ HelloWorldAPI.AssemblyInfoInputs.cache
+   │     ├─ HelloWorldAPI.GeneratedMSBuildEditorConfig.editorconfig
+   │     ├─ HelloWorldAPI.GlobalUsings.g.cs
+   │     ├─ HelloWorldAPI.assets.cache
+   │     ├─ HelloWorldAPI.csproj.AssemblyReference.cache
+   │     ├─ ref
+   │     ├─ refint
+   │     └─ staticwebassets
+   ├─ HelloWorldAPI.csproj.nuget.dgspec.json
+   ├─ HelloWorldAPI.csproj.nuget.g.props
+   ├─ HelloWorldAPI.csproj.nuget.g.targets
+   ├─ project.assets.json
+   └─ project.nuget.cache
+
+```
